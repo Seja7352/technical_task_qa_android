@@ -76,6 +76,7 @@ dependencies {
 
     // Room
     implementation("androidx.room:room-ktx:2.5.2")
+    testImplementation(libs.junit.junit)
 
     androidTestImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)
